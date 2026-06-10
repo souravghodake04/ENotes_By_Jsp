@@ -11,7 +11,7 @@ public class DBConnect {
 		try {
 			if (conn == null) {
 				Class.forName("com.mysql.cj.jdbc.Driver");
-				conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/edunotes", "root", "Sourav@123");
+				conn = DriverManager.getConnection( "jdbc:mysql://acela.proxy.rlwy.net:53504/railway", "root", "EJmCTLpJFfXLkgmCObQDluqxqLwzKgnZ");
 			}
 		} catch (Exception ex) {
 			ex.printStackTrace();
